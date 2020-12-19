@@ -36,6 +36,10 @@ h3{
   font-size: 1.5rem;
 }
 
+.last-para{
+font-weight: normal;
+}
+
 a{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
@@ -90,6 +94,7 @@ padding: 6.125rem 0;
 {
 background-color: #66BFBF;
 padding: 3.125rem 0 3.125rem;
+font-size: 1rem;
 }
 .skill-row{
   width: 50%;
