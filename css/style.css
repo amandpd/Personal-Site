@@ -11,7 +11,7 @@ p{
 
 h1{
   font-size: 5.625rem; /*  1em=16px  */
-  margin: 50 auto 0 auto;
+  margin: 3.625rem auto 0 auto;
   font-family: 'Sacramento', cursive;
   color: #66BFBF;
 }
@@ -21,7 +21,31 @@ h2{
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 0.3125rem;
+  width: 5%;
+  margin: 6.25rem auto;
+}
+h3{
+  color: #11999E;
+  font-size: 1.5rem;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0.625rem 1.25rem;
+  text-decoration: none;
+  font-size: 1rem;
+
+}
+a:hover{
+  color: #eaf6f6;
 }
 .intro{
 width: 30%;
@@ -31,46 +55,25 @@ margin: auto;
 .abc{
   width: 25%;
   float: left;
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 .pqr{
   width: 25%;
   float: right;
-  margin-left: 30px;
+  margin-left: 1.875rem;
   font-weight: bolder;
 }
-hr{
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
-  margin: 100px auto;
-}
-h3{
-  color: #11999E;
-}
 
-a{
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-
-}
-a:hover{
-  color: #eaf6f6;
-}
 .top
 {
   background-color: #EAF6F6;
   position: relative;
-  padding-top: 100px;
+  padding-top: 6.25em;
 }
 .top-cloud{
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 18.75rem;
+  top: 2.5rem;
 }
 
 .myskills{
@@ -80,25 +83,25 @@ color: #66BFBF;
 
 .middle-container
 {
-padding: 100px 0;
+padding: 6.125rem 0;
 }
 
 .bottom-container
 {
 background-color: #66BFBF;
-padding: 50px 0 20px;
+padding: 3.125rem 0 3.125rem;
 }
 .skill-row{
   width: 50%;
-  margin: 100px auto;
+  margin: 6.25rem auto;
   text-align: left;
 
 }
 
 .bottom-cloud{
   position: absolute;
-  bottom: 300px;
-  left: 250px;
+  bottom: 18.75rem;
+  left: 15.625rem;
 }
 
 .pro
@@ -108,7 +111,7 @@ padding: 50px 0 20px;
 
 .contact-message{
   width: 30%;
-  margin: 40px auto 60px;
+  margin: 2.5rem auto 3.75rem;
 }
 .btn {
   background: #11cdd4;
@@ -122,7 +125,7 @@ padding: 50px 0 20px;
   border-radius: 8px;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 0.625rem 1.25rem 0.625rem 1.25rem;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }
@@ -139,5 +142,5 @@ padding: 50px 0 20px;
 .copyright{
   color: #eaf6f6;
   font-size: 0.75rem;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
